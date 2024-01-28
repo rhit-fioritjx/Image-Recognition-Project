@@ -1,0 +1,3 @@
+[submodule "offline-crohme"]
+	path = offline-crohme
+	url = https://github.com/rhit-fioritjx/offline-crohme.git
