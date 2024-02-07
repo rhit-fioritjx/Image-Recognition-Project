@@ -1,3 +1,6 @@
 /data_merged
 /data_processed
 /models
+/offline-crohme/data_merged
+/offline-crohme/data_processed
+/data/chrome*
