@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "image-recognition-project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.37.2"
+sentencepiece = "^0.1.99"
+jiwer = "^3.0.3"
+datasets = "^2.16.1"
+evaluate = "^0.4.1"
+accelerate = "^0.26.1"
+matplotlib = "^3.8.2"
+protobuf = "3.20.1"
+tensorboard = "^2.15.1"
+ipykernel = "^6.29.2"
+torchvision = "^0.17.0"
+opencv-python = "^4.9.0.80"
+scipy = "^1.12.0"
+scikit-learn = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
