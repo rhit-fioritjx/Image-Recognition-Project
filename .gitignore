@@ -4,3 +4,4 @@
 /offline-crohme/data_merged
 /offline-crohme/data_processed
 /data/chrome*
+/seq2seq_model_printed/*
