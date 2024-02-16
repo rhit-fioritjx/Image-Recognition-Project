@@ -7,7 +7,7 @@
   * classifier_2_best_without_fine_tuning.ipynb - builds and trains a simple CNN using the Kaggle dataset linked above. save the best model during training as MATH.h5
   * fine_tuning.ipynb - used previous trained CNN MATH.h5 and fine-tune-dataset to fine tune the CNN to our handwritten math characters
   * demo.ipynb - used for in-class demo
-  * TrOCR??
+  * TrOCR?
   * fine-tune-dataset - the data used for fine-tuning and testing
   * offline-crohme - the data used for fine-tuning TrORC model
   
@@ -19,7 +19,7 @@
 * cv2
 * pandas
 * matplotlib
-not too sure about TrOCR
+* not too sure about TrOCR
 
 
 ## Gettting Started
