@@ -6,11 +6,19 @@
   * parse_equation_test.ipynb - script used to parse math expression image into individual characters
   * classifier_2_best_without_fine_tuning.ipynb - builds and trains a simple CNN using the Kaggle dataset linked above. save the best model during training as MATH.h5
   * fine_tuning.ipynb - used previous trained CNN MATH.h5 and fine-tune-dataset to fine tune the CNN to our handwritten math characters
+  * demo.ipynb - used for in-class demo
   * TrOCR??
   * fine-tune-dataset - the data used for fine-tuning and testing
   * offline-crohme - the data used for fine-tuning TrORC model
   
 ## Packages
+* tensorflow
+* sklearn
+* latex2sympy2
+* ipywidgets
+* cv2
+* pandas
+* matplotlib
 not too sure about TrOCR
 
 
@@ -28,4 +36,9 @@ not too sure about TrOCR
   * Make sure `MATH.h5` is on the same directory level as the notebook
   * Make sure fine-tune-dataset is on the same directory level as the notebook
   * Run the notebook and `fine_tuned_model.keras` should be saved in current directory
+
+* ### Runing [demo.ipynb](https://github.com/rhit-fioritjx/Image-Recognition-Project/blob/main/demo.ipynb)
+  * Make sure `handwritten-full-test` is on the same directory level as the notebook
+  * Run the notebook
+  * You can try your own images by changing that image path in 6th code chunk 
   
