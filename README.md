@@ -7,9 +7,10 @@
   * classifier_2_best_without_fine_tuning.ipynb - builds and trains a simple CNN using the Kaggle dataset linked above. save the best model during training as MATH.h5
   * fine_tuning.ipynb - used previous trained CNN MATH.h5 and fine-tune-dataset to fine tune the CNN to our handwritten math characters
   * demo.ipynb - used for in-class demo
-  * TrOCR?
+  * TrOCR training
   * fine-tune-dataset - the data used for fine-tuning and testing
   * offline-crohme - the data used for fine-tuning TrORC model
+    * This is a git submodule, so will need to be pulled with `git pull --recurse-submodules`
   
 ## Packages
 * tensorflow
@@ -19,7 +20,9 @@
 * cv2
 * pandas
 * matplotlib
-* not too sure about TrOCR
+
+* TROCR is setup using poetry
+* Run `poetry install` to setup a virtual environment with the required dependencies
 
 
 ## Gettting Started
@@ -41,5 +44,11 @@
   * Make sure `handwritten-full-test` is on the same directory level as the notebook
   * Run the notebook
   * You can try your own images by changing that image path in 6th code chunk
-  * TrORC?
+ 
+* ### Running [TrOCR_train.py](https://github.com/rhit-fioritjx/Image-Recognition-Project/blob/main/TrOCR_train.py)
+  * Make sure you run using a virtual environment with all the needed dependencies
+  * We reccomend running this in a `screen` session so that you do not need to keep the session running
+  * Run the file and wait roughly 4 hours
+  * This will save off training curves and model checkpoints to seq2seq_model_printed
+  * Modify any files using the model to use your most recent checkpoint
   
