@@ -40,5 +40,6 @@
 * ### Runing [demo.ipynb](https://github.com/rhit-fioritjx/Image-Recognition-Project/blob/main/demo.ipynb)
   * Make sure `handwritten-full-test` is on the same directory level as the notebook
   * Run the notebook
-  * You can try your own images by changing that image path in 6th code chunk 
+  * You can try your own images by changing that image path in 6th code chunk
+  * TrORC?
   
