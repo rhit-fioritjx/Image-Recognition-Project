@@ -22,7 +22,7 @@
 * matplotlib
 
 * TROCR is setup using poetry
-* Run `poetry install` to setup a virtual environment with the required dependencies
+  * Run `poetry install` to setup a virtual environment with the required dependencies
 
 
 ## Gettting Started
